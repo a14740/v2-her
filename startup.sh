@@ -24,7 +24,7 @@ cat << EOF > /etc/v2ray/config.json
     "inbounds": [
         {            
             "port": $PORT,
-            "protocol": "vmess",
+            "protocol": "vless",
             "settings": {
                 "clients": [
                     {
@@ -32,7 +32,7 @@ cat << EOF > /etc/v2ray/config.json
                         "level": 0
                     }
                 ],
-                 "disableInsecureEncryption": true
+                 "decryption": "none"
             },
             "streamSettings": {
                 "network": "ws",
