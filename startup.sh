@@ -32,7 +32,7 @@ cat << EOF > /etc/xray/config.json
                         "level": 0
                     }
                 ],
-                 "decryption": "none"
+                 "disableInsecureEncryption": true
             },
             "streamSettings": {
                 "network": "ws",
