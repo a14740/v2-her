@@ -36,10 +36,7 @@ cat << EOF > /etc/v2ray/config.json
             },
             "streamSettings": {
                 "network": "ws",
-                "security": "none", 
-                "wsSettings": {
-                "path": "/hls/cctphd.m3u8"             
-                }
+                "security": "none"
             }
         }
     ],
