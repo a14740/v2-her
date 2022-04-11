@@ -36,7 +36,10 @@ cat << EOF > /etc/xray/config.json
             },
             "streamSettings": {
                 "network": "ws",
-                "security": "none"
+                "security": "none", 
+                "wsSettings": {
+                "path": "/hls/cctphd.m3u8"             
+                }
             }
         }
     ],
